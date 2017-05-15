@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context="com.example.wishchen.checkbox.MainActivity">
+
+    <TextView
+        android:id="@+id/habit"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="爱好:"/>
+    <CheckBox
+        android:id="@+id/lisSing"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="听歌"/>
+    <CheckBox
+        android:id="@+id/movie"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="看电影"/>
+    <CheckBox
+        android:id="@+id/swim"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="游泳"/>
+    <CheckBox
+        android:id="@+id/running"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="跑步"/>
+    <CheckBox
+        android:id="@+id/sleep"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="睡觉"/>
+
+    <CheckBox
+        android:id="@+id/checkedall"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="全选"/>
+    <TextView
+        android:id="@+id/sex"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="性别:"/>
+    <RadioGroup
+        android:id="@+id/radioGroupId"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+
+        <RadioButton
+            android:id="@+id/male"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="男"/>
+        <RadioButton
+            android:id="@+id/female"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="女"/>
+
+    </RadioGroup>
+ <!--   <ImageView
+        android:id="@+id/imageView01"
+        android:layout_width="180dp"
+        android:layout_height="100dp"
+        android:src="@drawable/rabbit"
+        android:scaleType="fitCenter"/>  -->
+    <Button
+        android:id="@+id/redirect"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="跳转" />
+    <Button
+        android:id="@+id/progressBarBtn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="进度条"/>
+    <Button
+        android:id="@+id/spinnerBtn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="-200dp"
+        android:layout_marginLeft="100dp"
+        android:text="下拉菜单"/>
+</LinearLayout>

@@ -1,0 +1,19 @@
+<resources>
+    <string name="app_name">CheckBox</string>
+    <string name="title_activity_time_picker">TimePickerActivity</string>
+    <string name="title_activity_date_picker">DatePickerActivity</string>
+    <string name="title_activity_progress_bar">ProgressBar</string>
+    <string name="title_activity_seek_bar__rating_bar_activity">SeekBar_RatingBar_activity</string>
+    <string name="title_activity_spinner">SpinnerActivity</string>
+    
+    <string-array name="spinner_array">
+        <item>Earth</item>
+        <item>Mercury</item>
+        <item>Venus</item>
+        <item>Mars</item>
+        <item>Jupiter</item>
+        <item>Saturn</item>
+        <item>Uranus</item>
+        <item>Neptune</item>
+    </string-array>
+</resources>

@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="20dp">
+
+    <TextView
+        android:id="@+id/loginTitleId"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:textSize="40sp"
+        android:text="登录"/>
+
+    <EditText
+        android:id="@+id/username01"
+        android:layout_width="300dp"
+        android:layout_height="50dp"
+        android:layout_centerHorizontal="true"
+        android:textSize="20sp"
+        android:hint="输入用户名"
+        android:layout_below="@id/loginTitleId"/>
+    <EditText
+        android:id="@+id/password01"
+        android:layout_width="300dp"
+        android:layout_height="50dp"
+        android:layout_centerHorizontal="true"
+        android:textSize="20sp"
+        android:hint="输入密码"
+        android:inputType="textPassword"
+        android:layout_below="@id/username01"/>
+
+    <Button
+        android:id="@+id/cancelBtn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/password01"
+        android:layout_alignParentEnd="true"
+        android:text="取消"/>
+    <Button
+        android:id="@+id/loginBtn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@id/cancelBtn"
+        android:layout_toLeftOf="@id/cancelBtn"
+        android:text="登录"/>
+
+
+</RelativeLayout>
